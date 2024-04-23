@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.wrap:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.name {
+    width: 450px;
+    height: 30px;
+    background-color: coral;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.p {
+    font-weight: bold;
+}
